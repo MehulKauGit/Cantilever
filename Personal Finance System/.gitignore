@@ -1,0 +1,51 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+
+# Database & Data files
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Distribution / Packaging (keep spec files, exclude build artifacts)
+dist/
+build/
+*.egg-info/
+*.egg
+
+# PyInstaller spec files (optional: comment out if you want to track them)
+# *.spec
+
+# Tests
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# Exported files (user-generated, not source)
+exports/
